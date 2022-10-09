@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "serve": "vue-cli-service serve",    
-    "build": "vue-cli-service build",    
-    "lint": "vue-cli-service lint",
+    "build": "vite build",
+    "preview": "vite preview", 
     "postinstall": "npm run build",
     "start": "node server.js"
   },
