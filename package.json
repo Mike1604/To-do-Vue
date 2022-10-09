@@ -5,10 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "preview": "vite preview",
-    "start": "vue-cli-service serve",    
-    "build": "vue-cli-service build",    
-    "lint": "vue-cli-service lint"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.2.37"
